@@ -1,6 +1,6 @@
 # Site settings
-title: Mike Patel
-name: Mike Patel
+title: Radi Radichev
+name: Radi Radichev
 
 # Build settings
 markdown: kramdown
@@ -25,13 +25,13 @@ introduction: |
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://nerd-ability.blogspot.co.uk/
+   url: http://www.codeshambles.com/
  - title: GitHub
-   url: https://github.com/patelm5
+   url: https://github.com/coldsoul
  - title: StackOverflow
-   url: http://stackoverflow.com/users/441478/mikepatel
+   url: http://stackoverflow.com/users/886043/radi-radichev
  - title: LinkedIn
-   url: https://uk.linkedin.com/in/michael-patel-58855535
+   url: https://www.linkedin.com/in/radi-radichev-3aab1216/
 
 #Any buzzword skills you want to include
 
@@ -42,8 +42,6 @@ skills:
     - Scala
     - Spring 4
     - Akka
-    - Akka Streams
-    - JPA
     - Hazelcast
     - RabbitMQ
     - SQL
@@ -51,22 +49,17 @@ skills:
     - Bash
     - Ant
     - Groovy
-    - Ruby
    frontend:
     - JavaScript
     - HTML
     - CSS
-    - React
     - JSP
     - Thymeleaf
-    - Angular
     - Google Closure
-    - TypeScript
    build: 
     - Maven
     - Gradle	
     - SBT
-    - Webpack
     - Gulp
    version-control: 
     - Git
@@ -89,73 +82,63 @@ skills:
     - Check MK
     - Monitis
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed:
-  - url: http://nerd-ability.blogspot.com/feeds/posts/default
-    author: Michael Patel
-  - url: http://techblog.betgenius.com/rss/
-    author: Mike Patel
+#blogfeed:
+#  - url: http://nerd-ability.blogspot.com/feeds/posts/default
+#    author: Michael Patel
+#  - url: http://techblog.betgenius.com/rss/
+#    author: Mike Patel
 #Work experience is required
 roles:
- - title: Connextra Technical Lead
+ - title: Software Developer
    start: 2013
    end: Ongoing
    employer: Betgenius
    description: Connextra is an advertising platform that specializes in producing rich dynamic creative based on live sports data.
- - title: Software Engineer
-   start: 2011
-   end: 2013
-   employer: Betgenius
-   description: Working primarily on real-time, whitelabeled, sports widgets for visualizing the state of games, when TV rights are unavailable.
- - title: Senior Programmer
+ - title: Software Developer
    start: 2010
-   end: 2011
-   employer: Accenture
-   description: Range of technical roles, primarily working on client sites in Financial Services.
+   end: 2013
+   employer: Falcon-Scott Ltd./Addiction Innovation/Bray Leino Limited
+   description: Primarily front-end developer, developing micro-sites and adverts. 
 
 #Education is required
 education:
- - level: Master of Science (M.Sc.)
-   grade: Distinction
-   date: 2009
-   subject: Advanced Computer Science
-   school: University of Manchester
- - level: Bachelor of Science (B.Sc.)
+ - level: Bachelor of Science (B.Sc)
    grade: 2:1
-   date: 2008
+   date: 2011
    subject: Computer Science
-   school: University of Manchester
+   school: King's College London, U. of London
 
 #This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: June 3, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/course/algo
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: September 3, 2013
-    - title: Principles of Reactive Programming
-      link: https://www.coursera.org/course/reactive
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: January 21, 2014
+#coursera:
+#   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+#   courses:
+#    - title: Functional Programming Principles in Scala
+#      link: https://www.coursera.org/course/progfun
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+#      date: June 3, 2013
+#    - title: Algorithms Design and Analysis, Part 1
+#      link: https://www.coursera.org/course/algo
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
+#      date: September 3, 2013
+#    - title: Principles of Reactive Programming
+#      link: https://www.coursera.org/course/reactive
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+#      date: January 21, 2014
 
 #List of interesting Github repo/projects to include - optional
-github:
- - patelm5/patelm5.github.io
- - patelm5/jmeter-maven-plugin
- - patelm5/atmosphere-rabbitmq-example
- - patelm5/spring-social-thymeleaf-example
- - betgenius/krasa-jaxb-tools
- - betgenius/plovr-maven-plugin
- - patelm5/performance-plugin
+#github:
+# - patelm5/patelm5.github.io
+# - patelm5/jmeter-maven-plugin
+# - patelm5/atmosphere-rabbitmq-example
+# - patelm5/spring-social-thymeleaf-example
+# - betgenius/krasa-jaxb-tools
+# - betgenius/plovr-maven-plugin
+# - patelm5/performance-plugin
 
 #Stackoverflow flair is optional
-stackoverflow:
-   profileurl: http://stackoverflow.com/users/441478/mikepatel
-   flairimageurl: http://stackoverflow.com/users/flair/441478.png
+#stackoverflow:
+#   profileurl: http://stackoverflow.com/users/441478/mikepatel
+#   flairimageurl: http://stackoverflow.com/users/flair/441478.png
 
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
